@@ -22,3 +22,13 @@ finally 异常处理
 如果try catch finally都有return，执行完finally的逻辑后，会调用finally的return。
 foreach支持list 将嵌套数组分离到单独变量中
 empty支持任意表达式，而不仅仅是变量
+
+#5.6
+使用表达式定义常量
+使用...为函数定义变长参数 function f($a, $b, ...$params)
+使用...为调用函数进行参数展开 funcion f($a,$b,$c) ;$arr = [1,2,3];f(...$arr)
+使用 ** 进行幂运算
+use运算符升级，支持在类内部导入常量和函数
+php:input 可以重用，可以多次调用
+支持大于2G文件上传
+
