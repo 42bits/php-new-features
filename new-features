@@ -48,3 +48,4 @@ null 运算符 ?? 变量存在且不为null返回自身值，否则返回第二�
 try{}catch{FirstException | SecondException $e}
 list现在支持键名
 支持为负的字符串偏移量var_dump("adbdad"[-2]) , string(1) "a"
+
